@@ -54,3 +54,7 @@ if 7 not in lista:
 print (7 == 7 or 6 == 5)
 print (7 == 7 and 6 == 5)
 print (not (7 == 7 and 6 == 5))
+
+teste = '0001'
+for i in range('0001', '0005'):
+    print (i)

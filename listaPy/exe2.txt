@@ -1,0 +1,9 @@
+1   >> 1
+1a  >> SyntaxError: invalid syntax
+a1  >> NameError: name 'A1' is not defined
+1.  >> 1.0
+.2  >> 0.2
+-.3 >> -0.3
+'agua"limpa'  >> 'agua"limpa'
+"agua""  >> SyntaxError: EOL while scanning string literal
+"""teste 1 2 3"""  >>   'teste 1 2 3'
